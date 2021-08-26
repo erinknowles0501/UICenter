@@ -10,9 +10,9 @@ const Router:React.FC = () => {
     <Switch>
 
       <Route exact path="/"> <UserDash/> </Route>
-      <Route path="/articleComponent/Article"><Article/></Route>
-      <Route path="/articleComponent/BlogFeed" component = {BlogFeed}/>
-      <Route path="/articleComponent/ArticleRender" component= {ArticleRender}/>
+      <Route path="/Article"><Article/></Route>
+      <Route path="/BlogFeed" component = {BlogFeed}/>
+      <Route path="/ArticleRender" component= {ArticleRender}/>
       
     </Switch>
   );
